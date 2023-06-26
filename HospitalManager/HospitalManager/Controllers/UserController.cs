@@ -27,6 +27,7 @@ namespace HospitalManager.Controllers
             {
                 context.User.Add(newUser);
                 await context.SaveChangesAsync();
+                newUser.Password = "";
                 return newUser;
             }
             catch (Exception e)
@@ -52,6 +53,7 @@ namespace HospitalManager.Controllers
                 return NotFound();
 
             var token = TokenService.GenerateToken(login);
+            user.Password = "";
             return new
             {
                 user = login,

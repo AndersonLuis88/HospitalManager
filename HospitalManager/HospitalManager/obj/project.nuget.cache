@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T66skrBPIvgOWjamquCpc25e/bZNFquYoHnbC9LooCjK5b8iwF71KFPozr0vnTG/z4pSY15njSJEIjFPSasajg==",
+  "dgSpecHash": "4PsnWFOulyhe4yJM5vVnnW6KotPq55lKUMOrABODJ31lSlci+UUN/XV3kK/dSa8TTDgudVvTIZkCoHa0EPk6Vw==",
   "success": true,
   "projectFilePath": "C:\\GIT\\HospitalManager\\HospitalManager\\HospitalManager.csproj",
   "expectedPackageFiles": [
@@ -53,7 +53,10 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\mstest.testframework\\3.0.4\\mstest.testframework.3.0.4.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

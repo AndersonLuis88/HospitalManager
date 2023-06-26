@@ -54,7 +54,6 @@ namespace HospitalManager
 
 
             services.AddDbContext<ApplicationDbContext>(opt => opt.UseInMemoryDatabase("Database"));
-            services.AddScoped<ApplicationDbContext, ApplicationDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
