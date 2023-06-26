@@ -3,12 +3,15 @@ using HospitalManager.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
 using System.Data;
+using System.Threading.Tasks;
 
 namespace HospitalManager.Controllers
 {
 
-    [Authorize(Roles = "Doctor")]
+    //[Authorize(Roles = "Doctor")]
     [Route("api/medical-records")]
     public class MedicalRecordsController : ControllerBase
     {
@@ -33,7 +36,7 @@ namespace HospitalManager.Controllers
 
         [HttpPost]
         [Route("")]
-        [Authorize(Roles = "Doctor")]
+        //[Authorize(Roles = "Doctor")]
         public async Task<ActionResult<List<Ficha>>> Post(
             [FromBody]Ficha ficha,
             [FromServices] ApplicationDbContext context

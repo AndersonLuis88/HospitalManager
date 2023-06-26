@@ -1,8 +1,11 @@
 ﻿using HospitalManager.Data;
 using HospitalManager.Models;
-using HospitalManager.Services;
+//using HospitalManager.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HospitalManager.Controllers
 {
@@ -44,7 +47,7 @@ namespace HospitalManager.Controllers
             if (login == null)
                 return NotFound();
 
-            var token = TokenService.GenerateToken(login);
+            var token = "teste";//TokenService.GenerateToken(login);
             return new
             {
                 user = login,
