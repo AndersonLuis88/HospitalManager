@@ -11,8 +11,8 @@ using System.Threading.Tasks;
 namespace HospitalManager.Controllers
 {
 
-    //[Authorize(Roles = "Doctor")]
-    [Route("api/medical-records")]
+    [Authorize(Roles = "Doctor")]
+    [Route("medical-records")]
     public class MedicalRecordsController : ControllerBase
     {
         [HttpGet]
@@ -36,7 +36,7 @@ namespace HospitalManager.Controllers
 
         [HttpPost]
         [Route("")]
-        //[Authorize(Roles = "Doctor")]
+        [Authorize(Roles = "Doctor")]
         public async Task<ActionResult<List<Ficha>>> Post(
             [FromBody]Ficha ficha,
             [FromServices] ApplicationDbContext context

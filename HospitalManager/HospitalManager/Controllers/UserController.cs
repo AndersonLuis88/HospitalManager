@@ -1,6 +1,8 @@
 ﻿using HospitalManager.Data;
+using HospitalManager.Enums;
 using HospitalManager.Models;
-//using HospitalManager.Services;
+using HospitalManager.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,20 +17,22 @@ namespace HospitalManager.Controllers
     {
         [HttpPost]
         [Route("")]
+        [AllowAnonymous]
         public async Task<ActionResult<User>> Post(
             [FromServices] ApplicationDbContext context,
-            [FromBody] User user)
+            [FromBody] User newUser)
         {
+
             try
             {
-                context.User.Add(user);
+                context.User.Add(newUser);
                 await context.SaveChangesAsync();
-                return user;
+                return newUser;
             }
-            catch (Exception)
+            catch (Exception e)
             {
 
-                return BadRequest();
+                return BadRequest(e);
             }  
 
         }
@@ -47,7 +51,7 @@ namespace HospitalManager.Controllers
             if (login == null)
                 return NotFound();
 
-            var token = "teste";//TokenService.GenerateToken(login);
+            var token = TokenService.GenerateToken(login);
             return new
             {
                 user = login,

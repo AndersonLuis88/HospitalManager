@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using HospitalManager.Enums;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalManager.Models
@@ -6,6 +7,7 @@ namespace HospitalManager.Models
     public class User
     {
         public int Id { get; set; } 
+
         [Required(ErrorMessage = "Campo Obrigatório!")]
         public string UserName { get; set; }
 

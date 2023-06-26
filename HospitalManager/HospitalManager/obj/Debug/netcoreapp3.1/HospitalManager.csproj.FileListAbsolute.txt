@@ -39,3 +39,11 @@ C:\GIT\HospitalManager\HospitalManager\obj\Debug\netcoreapp3.1\HospitalManager.d
 C:\GIT\HospitalManager\HospitalManager\obj\Debug\netcoreapp3.1\HospitalManager.pdb
 C:\GIT\HospitalManager\HospitalManager\obj\Debug\netcoreapp3.1\HospitalManager.genruntimeconfig.cache
 C:\GIT\HospitalManager\HospitalManager\obj\Debug\netcoreapp3.1\HospitalManager.csproj.AssemblyReference.cache
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\GIT\HospitalManager\HospitalManager\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

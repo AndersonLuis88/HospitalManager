@@ -2,7 +2,7 @@
 {
     public class ERoles
     {
-        enum Roles
+        public enum Roles
         {
             Doctor,
             Patient
